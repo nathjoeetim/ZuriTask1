@@ -1,0 +1,36 @@
+.listItemContainer {
+  height: fit-content;
+}
+
+.linkItem {
+  display: flex;
+  background: #eaecf0;
+  border-radius: 8px;
+
+  border: 1px solid #eaecf0;
+  gap: 8px;
+  justify-content: center;
+  text-align: center;
+  margin: 7px;
+  height: 76px;
+
+  font-family: inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+
+  align-items: center;
+}
+
+.iconContainer {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 3rem;
+  padding: 1rem;
+}

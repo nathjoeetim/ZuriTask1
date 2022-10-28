@@ -1,0 +1,42 @@
+.fotter {
+  display: flex;
+  padding: 8px 3px;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 160px;
+  left: 0px;
+  /* top: 998px; */
+
+  /* Base/White */
+
+  background: #ffffff;
+}
+
+h2 {
+  font-size: 12px;
+}
+
+span {
+  color: red;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  height: 3rem;
+  padding: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .fotter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    width: 100%;
+  }
+}
