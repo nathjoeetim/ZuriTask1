@@ -1,8 +1,9 @@
 .fotter {
   display: flex;
-  padding: 8px 3px;
+  padding: 2px 3px;
   justify-content: space-between;
   align-items: center;
+  border-top: 2px solid gray;
 
   height: 160px;
   left: 0px;
